@@ -212,7 +212,7 @@ class DataStore {
 
     // Obtener todos los datos
     getData() {
-        return JSON.parse(localStorage.getItem('farmacia_data')) || INITIAL_DATA;
+        return JSON.parse(localStorage.getItem('farmacia_data')) || INITIAL_DATA;productImages
     }
 
     // Guardar datos
