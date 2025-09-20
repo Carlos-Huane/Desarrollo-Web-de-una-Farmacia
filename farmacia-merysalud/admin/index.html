@@ -1,3 +1,4 @@
+<!-- admin/index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -162,6 +163,8 @@
                 
                 // Redirigir según rol
                 if (usuario.rol === 'ADMIN') {
+                    console.log("ingrese al admin");
+                    
                     window.location.href = './dashboard.html';
                 } else if (usuario.rol === 'REPARTIDOR') {
                     window.location.href = '../delivery/index.html';
